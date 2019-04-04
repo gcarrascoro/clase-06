@@ -90,7 +90,7 @@
                 <titulo-formulario> Hobbies </titulo-formulario>
             </legend>
             <div> <label for="tipo-hobby">Actividades de tiempo libre:</label> <br>
-                <input id="tipo-hobby" type="checkbox" name="hobby1" value="intrument"> Tocar un instrumento <br>
+                <input id="tipo-hobby" type="checkbox" name="hobby1" value="intrument"> Dibujar <br>
                 <input type="checkbox" name="hobby2" value="movie"> Mirar películas <br>
                 <input type="checkbox" name="hobby3" value="read"> Leer <br>
                 <input type="checkbox" name="hobby4" value="excercise"> Hacer ejercicio <br>
@@ -104,6 +104,37 @@
             <input type="time">
         </fieldset>
 
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend>
+                <titulo-formulario>Interés musical</titulo-formulario> </legend>
+                <label for="type-music">¿Qué tipo de música escuchás?</label> <br>
+                <input type="checkbox" name="Reggae" value="Reggae">Reggae <br>
+                <input type="checkbox" name="Rock" value="Rock">Rock<br>
+                <input type="checkbox" name="Pop" value="Pop">Pop<br>
+                <input type="checkbox" name="Jazz" value="Jazz">Jazz <br>
+                <input type="checkbox" name="Clasica" value="Clasica">Clásica <br>
+                <input type="checkbox" name="Indie" value="Indie">Indie<br>
+                <input type="checkbox" name="Electronica" value="Electronica">Electrónica <br>
+                <label for="fav-band">Banda favorita</label><br>
+                <input type="text" id="fav-band" > <br>
+                <span> <label for="instrument">¿Tocás algun instrumento?</label> <br>
+                <label for="si">Si</label>
+                <input id= "si" name="instrument" type="radio" >
+                <label for="no">No</label>
+                <input id= "no" name="instrument" type="radio" > </span><br>
+                <label for="nivel">¿Cuánto conocimiento tenes de ese instrumento?</label> <br>
+                
+                <select id="nivel" name="nivel" >
+                    <option value="">Seleccione su nivel</option>
+                    <option value="basico">Básico</option>
+                    <option value="intermedio">Intermedio</option>
+                    <option value="Avanzado">Avanzado</option>
+                </select>
+
+        </fieldset>
     </form>
     <!-- Fin contenido -->
 </body>
